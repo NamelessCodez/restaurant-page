@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+body,
+html {
+  height: 100%;
+  margin: 0;
+  background-image: url("bg.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #f22d2d;
+  font-family: "Secular One", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+  font-size: 24px;
+
+  display: flex;
+}
+
+button {
+  border: none;
+  outline: none;
+  color: #f22d2d;
+
+  background-color: transparent;
+  font-family: "Secular One", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 64px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  font-size: 32px;
+}
+
+.nav-item {
+  font-size: 18px;
+}
+
+.come {
+  color: blueviolet;
+  margin: 300px 300px 48px 300px;
+  font-size: 44px;
+}
+
+.order-button {
+  font-size: 24px;
+  height: 46px;
+  width: 165px;
+  color: #f22d2d;
+  background-color: beige;
+  border-radius: 30px;
+  margin: 0 650px;
+}
+
+.address {
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 64px 150px 64px 32px;
+  margin: 32px 450px 0 450px;
+  border-radius: 10px;
+}
