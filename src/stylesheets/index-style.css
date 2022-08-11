@@ -4,7 +4,7 @@ body,
 html {
   height: 100%;
   margin: 0;
-  background-image: url("bg.jpg");
+  background-image: url("assets/bg.jpg");
 
   /* Full height */
   height: 100%;
@@ -14,7 +14,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 
-  color: #f22d2d;
+  color: beige;
   font-family: "Secular One", sans-serif;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@ ul {
 button {
   border: none;
   outline: none;
-  color: #f22d2d;
+  color: beige;
 
   background-color: transparent;
   font-family: "Secular One", sans-serif;
@@ -63,8 +63,8 @@ button {
   font-size: 24px;
   height: 46px;
   width: 165px;
-  color: #f22d2d;
-  background-color: beige;
+  color: beige;
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 30px;
   margin: 0 650px;
 }

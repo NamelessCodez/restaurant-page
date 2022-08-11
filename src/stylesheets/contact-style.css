@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+body {
+  margin: 0;
+  font-family: "Secular One", sans-serif;
+  height: 100vh;
+
+  background-image: url("assets/bg.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: beige;
+}
+ul {
+  margin: 0;
+  list-style-type: none;
+  font-size: 24px;
+
+  display: flex;
+}
+
+button {
+  border: none;
+  outline: none;
+  color: beige;
+
+  background-color: transparent;
+  font-family: "Secular One", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 64px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  font-size: 32px;
+}
+
+.nav-item {
+  font-size: 18px;
+}
+
+img {
+  width: 32px;
+  height: 32px;
+}
+
+.contact-detail {
+  font-size: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 32px;
+}
+
+.bg {
+  background-color: rgba(0, 0, 0, 0.5);
+
+  padding: 200px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 100px;
+}
