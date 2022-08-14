@@ -7,7 +7,7 @@ const render = function (stylesheet) {
     mainDiv.removeChild(mainDiv.firstChild);
   }
 
-  style.href = `../src/${stylesheet}-style.css`;
+  style.href = `../src/stylesheets/${stylesheet}-style.css`;
 };
 
 export default render;

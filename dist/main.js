@@ -56,7 +56,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n//remove all children of main div to render new pages and change stylesheet\r\nconst render = function (stylesheet) {\r\n  const mainDiv = document.querySelector(\".main\");\r\n  const style = document.querySelector(\"link\");\r\n\r\n  while (mainDiv.firstChild) {\r\n    mainDiv.removeChild(mainDiv.firstChild);\r\n  }\r\n\r\n  style.href = `../src/${stylesheet}-style.css`;\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (render);\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/render.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n//remove all children of main div to render new pages and change stylesheet\r\nconst render = function (stylesheet) {\r\n  const mainDiv = document.querySelector(\".main\");\r\n  const style = document.querySelector(\"link\");\r\n\r\n  while (mainDiv.firstChild) {\r\n    mainDiv.removeChild(mainDiv.firstChild);\r\n  }\r\n\r\n  style.href = `../src/stylesheets/${stylesheet}-style.css`;\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (render);\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/render.js?");
 
 /***/ })
 
